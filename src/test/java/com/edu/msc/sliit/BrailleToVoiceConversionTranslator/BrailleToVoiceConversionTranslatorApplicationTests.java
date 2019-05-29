@@ -1,4 +1,4 @@
-package com.example.BrailleToVoiceConversionTranslator;
+package com.edu.msc.sliit.BrailleToVoiceConversionTranslator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

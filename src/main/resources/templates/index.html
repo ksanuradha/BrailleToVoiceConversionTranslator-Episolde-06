@@ -7,6 +7,7 @@
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./js/upload.js"></script>
 <script type="text/javascript" src="./js/scan.js"></script>
+<script type="text/javascript" src="./js/listen.js"></script>
 </head>
 <body>
 	<center>
@@ -29,15 +30,11 @@
 					id="btnContactUs">Scan Image</button>
 
 				<input style="margin-right: 253px; visibility: hidden" type="radio"
-					id="contactChoice1" name="contact" value="email" checked> <input
-					type="radio" id="contactChoice1" name="contact" value="email"
-					checked> <label
-					style="font-family: Helvetica Neue Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4"
-					for="contactChoice1">Sinhala</label> <input type="radio"
-					id="contactChoice2" name="contact" value="phone"> <label
-					style="font-family: Helvetica Neue Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4"
-					for="contactChoice2">English</label>
-
+					id="contactChoice1" name="contact" value="email" checked> 
+					<input type="radio" id="contactChoice1S" name="contact" value="email" checked> 
+					<label style="font-family: Helvetica Neue Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4" for="contactChoice1">Sinhala</label> 
+					<input type="radio" id="contactChoice2" name="contact" value="phone"> 
+					<label style="font-family: Helvetica Neue Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4" for="contactChoice2">English</label>
 			</div>
 			<div class="form-group">
 				<table style="width: 100%">
@@ -53,13 +50,12 @@
 						<td><input style="width: 90%;" type="text"
 							class="form-control" id="form-control"></td>
 						<td><button type="button" style="margin-left: 0px;"
-								value="Import" class="btn btn-warning" id="btnContactUs">Listen</button></td>
+								value="Import" class="btn btn-warning" id="listenDoc">Listen</button></td>
 					</tr>
 					<tr>
-						<td style="padding-top: 17px;"><button type="submit"
-								value="Import" class="btn btn-success" id="btnContactUs">Save</button>
-							<button type="submit" value="Import" class="btn btn-warning"
-								id="btnContactUs">Listen</button></td>
+						<td style="padding-top: 17px;">
+						<button type="submit" value="Import" class="btn btn-success" id="btnContactUs">Save</button>
+						<button type="submit" value="Import" class="btn btn-warning" id="listenDocSave">Listen</button></td>
 					</tr>
 				</table>
 			</div>
